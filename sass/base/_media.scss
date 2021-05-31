@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        li {
+            list-style: none;
+            padding: 0 10px;
+            button {
+                width: 40px;
+                height: 40px;
+                border-radius: 100%;
+                background-color: $main-color;
+                color: #ffffff;
+                font-size: 14px;
+            }
+        }
+    }
+}
